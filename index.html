@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/png"
+      href="images/favicon-32x32.png"
+    />
+    <script src="js/script.js" defer></script>
+    <title>manage</title>
+  </head>
+  <body class="Usersmobile md:bg-Users bg-no-repeat bg-cover">
+    <nav>
+      <div class="container max-w-6xl mx-auto px-6 py-12">
+        <div class="flex items-center justify-between">
+          <!-- logo -->
+          <div>
+            <img src="images/logo.svg" alt="" />
+          </div>
+          <!-- link -->
+          <div class="hidden md:flex space-x-8 text-DarkBlue">
+            <div>
+              <a href="#" class="hover:text-gray-400">Pricing</a>
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-400">Product</a>
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-400">About Us</a>
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-400">Careers</a>
+            </div>
+            <div>
+              <a href="#" class="hover:text-gray-400">Community</a>
+            </div>
+          </div>
+          <!-- link 2 -->
+          <div class="hidden md:flex">
+            <a
+              href="#"
+              class="px-4 py-2 bg-BrightRed text-sm rounded-full hover:shadow-BrightRed text-white hover:bg-DarkBlue"
+              >Get starter</a
+            >
+          </div>
+          <!-- Hamburger Button -->
+          <button
+            id="menu-btn"
+            class="block hamburger md:hidden focus:outline-none"
+            type="button"
+          >
+            <span class="hamburger-top"></span>
+            <span class="hamburger-middle"></span>
+            <span class="hamburger-bottom"></span>
+          </button>
+        </div>
+        <!-- Mobile Menu -->
+        <div
+          id="menu"
+          class="absolute hidden p-6 rounded-lg bg-white shadow-xl left-6 right-6 top-20 z-100 md:hidden"
+        >
+          <div
+            class="flex flex-col items-center justify-center w-full space-y-6 font-bold text-white rounded-sm"
+          >
+            <a
+              href="#"
+              class="w-full text-DarkBlue hover:text-BrightRed text-center"
+              >Pricing</a
+            >
+            <a
+              href="#"
+              class="w-full text-DarkBlue hover:text-BrightRed text-center"
+              >Product</a
+            >
+            <a
+              href="#"
+              class="w-full text-DarkBlue hover:text-BrightRed text-center"
+              >About Us</a
+            >
+            <a
+              href="#"
+              class="w-full text-DarkBlue hover:text-BrightRed text-center"
+              >Careers</a
+            >
+            <a
+              href="#"
+              class="w-full text-DarkBlue hover:text-BrightRed text-center"
+              >Community</a
+            >
+
+            <a href="#" class="w-full py-3 text-center rounded-full bg-cyan"
+              >content</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- hero-section -->
+    <section>
+      <div class="container max-w-6xl mx-auto">
+        <div class="flex flex-col-reverse md:flex-row px-6">
+          <div class="md:w-1/2 md:my-16 text-center md:text-left">
+            <h1
+              class="font-semibold text-5xl text-DarkBlue mb-6 md:text-6xl md:text-left"
+            >
+              Bring everyone together to build better products.
+            </h1>
+            <p class="mb-9 text-gray-400">
+              Manage make it simple for software teams to plan day-to-day tasks
+              while keeping the larger tean goals in view
+            </p>
+            <a
+              href="#"
+              class="px-4 py-2 bg-BrightRed text-sm rounded-full hover:shadow-BrightRed text-white hover:opacity-80"
+              >Get started</a
+            >
+          </div>
+          <!-- imge -->
+          <div class="md:w-1/2">
+            <img src="images/illustration-intro.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+    <section>
+      <div
+        class="container max-w-6xl mx-auto flex flex-col space-x-10 px-6 mt-16 md:flex-row"
+      >
+        <div class="text-center md:text-left">
+          <h2 class="font-semibold text-4xl text-DarkBlue mb-6 md:text-4xl">
+            What's different about Manage?
+          </h2>
+          <p class="mb-9 text-gray-400">
+            Manage provides all the functionality your team neede, without the
+            complexity.Our software is tailor-made for modern daigtal product
+            teams.
+          </p>
+        </div>
+        <div>
+          <!--  -->
+          <div>
+            <!-- 1 -->
+            <div class="flex space-x-8 mb-5">
+              <div>
+                <span
+                  class="px-4 py-2 text-xl bg-BrightRed rounded-full hover:shadow-BrightRed text-white"
+                  >01</span
+                >
+              </div>
+              <div>
+                <!-- text -->
+                <div>
+                  <h4 class="text-DarkBlue mb-5 font-semibold">
+                    Track company-wide progress
+                  </h4>
+                  <p class="text-gray-400">
+                    see how yur day-to-day tasks fit into the wider vision Go
+                    from tracking progress at the milestone level all the way
+                    done to the smallest of datails. Never lose sight of th
+                    bigger picture again
+                  </p>
+                </div>
+              </div>
+            </div>
+            <!-- 2 -->
+            <div class="flex space-x-8 mb-5">
+              <div>
+                <span
+                  class="px-4 py-2 text-xl bg-BrightRed rounded-full hover:shadow-BrightRed text-white"
+                  >02</span
+                >
+              </div>
+              <div>
+                <!-- text -->
+                <div>
+                  <h4 class="text-DarkBlue mb-5 font-semibold">
+                    Advanced built-in reports
+                  </h4>
+                  <p class="text-gray-400">
+                    Set internal delivery estimates and track progress toward
+                    company goals. Our cutomisable dashboard helps you build out
+                    the reports you need to keep key stakeholders informed
+                  </p>
+                </div>
+              </div>
+            </div>
+
+            <!-- 3 -->
+            <div class="flex space-x-8 mb-5">
+              <div>
+                <span
+                  class="px-4 py-2 text-xl bg-BrightRed rounded-full hover:shadow-BrightRed text-white"
+                  >03</span
+                >
+              </div>
+              <div>
+                <!-- text -->
+                <div>
+                  <h4 class="text-DarkBlue mb-5 font-semibold">
+                    Everything you need in one place
+                  </h4>
+                  <p class="text-gray-400">
+                    Stop jumping from one serice to another to communicate,
+                    store files, traks and share documents. Mannage offers an
+                    all-in-one team productivity solution
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+    <section>
+      <div class="container mx-auto p-12 py-24 px-6">
+        <div>
+          <h3 class="text-2xl font-semibold text-center text-DarkBlue mb-16">
+            What they've said
+          </h3>
+        </div>
+        <div class="container mx-auto bg-VeryPaleRed rounded-[70px] py-6 px-6">
+          <div class="w-full">
+            <!-- Slider main container -->
+            <div class="swiper h-[400px]">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+                <!-- Slides 1 -->
+                <div class="swiper-slide">
+                  <!--  -->
+                  <div
+                    class="max-w[370px] h-[340px] flex flex-col justify-center p-9 mx-auto rounded-[30px]"
+                  >
+                    <div>
+                      <div
+                        class="flex items-center justify-center -mb-8 relative"
+                      >
+                        <img
+                          src="images/avatar-shanai.png"
+                          class="w-16 flex items-center"
+                          alt=""
+                        />
+                      </div>
+                      <div class="py-10 px-5 bg-VeryLightGray">
+                        <h5
+                          class="text-center font-semibold text-DarkBlue mb-5 mt-5"
+                        >
+                          Shanai
+                        </h5>
+                        <p class="text-center text-gray-400">
+                          "We hava able to cancel so many other subscriptions
+                          since using manage. Ther is no more cross-channel
+                          confusion and everyone is much more focused"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slides 2 -->
+                <div class="swiper-slide">
+                  <div
+                    class="max-w[370px] h-[340px] flex flex-col justify-center p-9 mx-auto rounded-[30px]"
+                  >
+                    <div class="">
+                      <div class="flex items-center justify-center -mb-8">
+                        <img
+                          src="images/avatar-richard.png"
+                          class="w-16 flex items-center"
+                          alt=""
+                        />
+                      </div>
+                      <div class="py-10 px-5 bg-VeryLightGray">
+                        <h5
+                          class="text-center font-semibold text-DarkBlue mb-5 mt-5"
+                        >
+                          Richard
+                        </h5>
+                        <p class="text-center text-gray-400">
+                          "We hava able to cancel so many other subscriptions
+                          since using manage. Ther is no more cross-channel
+                          confusion and everyone is much more focused"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slides 3 -->
+                <div class="swiper-slide">
+                  <div
+                    class="max-w[370px] h-[340px] flex flex-col justify-center p-9 mx-auto rounded-[30px]"
+                  >
+                    <div>
+                      <div class="flex items-center justify-center -mb-8">
+                        <img
+                          src="images/avatar-ali.png"
+                          class="w-16 flex items-center"
+                          alt=""
+                        />
+                      </div>
+                      <div class="py-10 px-5 bg-VeryLightGray">
+                        <h5
+                          class="text-center font-semibold text-DarkBlue mb-5 mt-5"
+                        >
+                          Anisha
+                        </h5>
+                        <p class="text-center text-gray-400">
+                          "We hava able to cancel so many other subscriptions
+                          since using manage. Ther is no more cross-channel
+                          confusion and everyone is much more focused"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- slides 4 -->
+                <div class="swiper-slide">
+                  <div
+                    class="max-w[370px] h-[340px] flex flex-col justify-center p-9 mx-auto rounded-[30px]"
+                  >
+                    <div>
+                      <div class="flex items-center justify-center -mb-8">
+                        <img
+                          src="images/avatar-anisha.png"
+                          class="w-16 flex items-center"
+                          alt=""
+                        />
+                      </div>
+                      <div class="py-10 px-5 bg-VeryLightGray">
+                        <h5
+                          class="text-center font-semibold text-DarkBlue mb-5 mt-5"
+                        >
+                          Anisha
+                        </h5>
+                        <p class="text-center text-gray-400">
+                          "We hava able to cancel so many other subscriptions
+                          since using manage. Ther is no more cross-channel
+                          confusion and everyone is much more focused"
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                ...
+              </div>
+              <!-- If we need pagination -->
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  -->
+
+    <!--  -->
+    <section class="bg-BrightRed">
+      <div class="container max-w-6xl mx-auto py-24">
+        <div
+          class="flex flex-col items-center justify-between space-y-10 md:flex-row md:space-y-0"
+        >
+          <div>
+            <h4 class="text-white font-bold text-3xl text-center md:text-left">
+              Simplify how your team works today.
+            </h4>
+          </div>
+          <div>
+            <a
+              href="#"
+              class="px-4 py-2 bg-white text-sm rounded-full hover:hover:scale-95 text-DarkBlue hover:text-white hover:bg-DarkBlue"
+              >Get started</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  -->
+
+    <section class="bg-DarkBlue">
+      <footer class="max-w-6xl mx-auto py-16 text-white">
+        <div
+          class="flex flex-col-reverse items-center justify-between md:flex-row"
+        >
+          <!-- logo -->
+
+          <div class="flex flex-col-reverse md:flex-col">
+            <div class="mb-28 font-light">
+              <img src="images/logo.svg" alt="" />
+            </div>
+            <!-- so -->
+            <div class="flex space-x-10 mb-28 md:mb-0">
+              <div>
+                <img
+                  src="images/icon-youtube.svg"
+                  class="hover:scale-95"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="images/icon-twitter.svg"
+                  class="hover:scale-95"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="images/icon-pinterest.svg"
+                  class="hover:scale-95"
+                  alt=""
+                />
+              </div>
+              <div>
+                <img
+                  src="images/icon-instagram.svg"
+                  class="hover:scale-95"
+                  alt=""
+                />
+              </div>
+            </div>
+          </div>
+
+          <div class="flex space-x-20 justify-between mb-10">
+            <!-- link 1 -->
+            <div class="flex flex-col space-y-5">
+              <div>
+                <a href="#" class="hover:text-BrightRed">Home</a>
+              </div>
+              <div>
+                <a href="#" class="hover:text-BrightRed">Pricing</a>
+              </div>
+              <div>
+                <a href="#" class="hover:text-BrightRed">Product</a>
+              </div>
+              <div>
+                <a href="#" class="hover:text-BrightRed">About Us</a>
+              </div>
+            </div>
+            <!-- link 2 -->
+            <div class="space-y-5">
+              <div>
+                <a href="#" class="hover:text-BrightRed">Careers</a>
+              </div>
+              <div>
+                <a href="#" class="hover:text-BrightRed">Community</a>
+              </div>
+              <div>
+                <a href="#" class="hover:text-BrightRed">Privacy Policy</a>
+              </div>
+              <p class="text-white">com</p>
+            </div>
+          </div>
+          <!-- email -->
+          <div
+            class="flex space-x-5 mb-10 md:flex-row md:space-y-0 md:space-x-6"
+          >
+            <div>
+              <input
+                type="text"
+                class="w-full px-10 py-2 rounded-full focus:outline-none"
+                placeholder="obinnandor@gmail.com"
+              />
+            </div>
+            <button
+              class="p-2 px-4 rounded-full bg-BrightRed md:w-20 hover:scale-95"
+            >
+              Go
+            </button>
+          </div>
+        </div>
+      </footer>
+    </section>
+    <!-- swiper -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
